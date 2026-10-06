@@ -1,0 +1,7 @@
+seed,escenario,clasificador,precision,recall,f1
+20162017,principal (DUDOSO excluidos),beto,0.7665,0.7887,0.7774
+20162017,principal (DUDOSO excluidos),ensamble_v2,0.6753,0.8234,0.742
+20162017,DUDOSO como NO,beto,0.7557,0.7887,0.7718
+20162017,DUDOSO como NO,ensamble_v2,0.664,0.8234,0.7351
+20162017,DUDOSO como SI,beto,0.7698,0.7543,0.762
+20162017,DUDOSO como SI,ensamble_v2,0.6807,0.7927,0.7325

@@ -1,0 +1,99 @@
+{
+  "seed": 20162019,
+  "threshold": 0.75,
+  "precision_oof_weighted": 0.8325034246436136,
+  "recall_oof_weighted": 0.8629145406819723,
+  "f1_oof_weighted": 0.8474362369453319,
+  "tie_break": "umbral más cercano a 0.5; luego el menor",
+  "weights": "N_h/n_h con n_h original antes de excluir DUDOSO",
+  "n_decidable": 238,
+  "hardware": {
+    "max_length": 512,
+    "fp16": true,
+    "peak_vram_mib_probe": 911.4,
+    "probe_observed_tokens": 512,
+    "selection_rule": "primera configuración viable en orden 512, 384, 256; fp16 primero",
+    "attempts": [
+      {
+        "success": true,
+        "max_length": 512,
+        "fp16": true,
+        "observed_tokens": 512,
+        "loss": 0.75244140625,
+        "peak_vram_mib": 911.4
+      }
+    ]
+  },
+  "training_logs": [
+    {
+      "fold": 1,
+      "seed": 20162019,
+      "n_train": 190,
+      "n_val": 48,
+      "epoch_losses": [
+        0.6727500513980263,
+        0.35422379343133226,
+        0.19255780671772205,
+        0.07832107543945313
+      ],
+      "elapsed_seconds": 210.94,
+      "max_vram_mib": 2167.5
+    },
+    {
+      "fold": 2,
+      "seed": 20162019,
+      "n_train": 190,
+      "n_val": 48,
+      "epoch_losses": [
+        0.6727468390213815,
+        0.39642109118009866,
+        0.19829037314967105,
+        0.10755908363743832
+      ],
+      "elapsed_seconds": 206.36,
+      "max_vram_mib": 2167.5
+    },
+    {
+      "fold": 3,
+      "seed": 20162019,
+      "n_train": 190,
+      "n_val": 48,
+      "epoch_losses": [
+        0.6434538188733553,
+        0.3930310701069079,
+        0.24455847489206414,
+        0.1684073197214227
+      ],
+      "elapsed_seconds": 208.71,
+      "max_vram_mib": 2172.8
+    },
+    {
+      "fold": 4,
+      "seed": 20162019,
+      "n_train": 191,
+      "n_val": 47,
+      "epoch_losses": [
+        0.6858370316590314,
+        0.4630798020287958,
+        0.21964994899889562,
+        0.12234908498394552
+      ],
+      "elapsed_seconds": 223.41,
+      "max_vram_mib": 2172.8
+    },
+    {
+      "fold": 5,
+      "seed": 20162019,
+      "n_train": 191,
+      "n_val": 47,
+      "epoch_losses": [
+        0.6186108014970549,
+        0.32592645615183247,
+        0.18294301457430057,
+        0.06969114373491697
+      ],
+      "elapsed_seconds": 214.4,
+      "max_vram_mib": 2172.8
+    }
+  ]
+}

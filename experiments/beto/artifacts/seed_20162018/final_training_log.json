@@ -1,0 +1,32 @@
+{
+  "seed": 20162018,
+  "threshold": 0.55,
+  "n_train": 238,
+  "n_eval": 1400,
+  "epoch_losses": [
+    0.5871305064994747,
+    0.25505530734022125,
+    0.1120444385945296,
+    0.04383783580876198
+  ],
+  "elapsed_seconds": 333.61,
+  "max_vram_mib": 2166.7,
+  "hardware": {
+    "max_length": 512,
+    "fp16": true,
+    "peak_vram_mib_probe": 911.4,
+    "probe_observed_tokens": 512,
+    "selection_rule": "primera configuración viable en orden 512, 384, 256; fp16 primero",
+    "attempts": [
+      {
+        "success": true,
+        "max_length": 512,
+        "fp16": true,
+        "observed_tokens": 512,
+        "loss": 0.75244140625,
+        "peak_vram_mib": 911.4
+      }
+    ]
+  },
+  "evaluation_labels_read": false
+}

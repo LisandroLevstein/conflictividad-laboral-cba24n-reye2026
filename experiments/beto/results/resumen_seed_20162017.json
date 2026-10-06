@@ -1,0 +1,104 @@
+{
+  "seed": 20162017,
+  "threshold": {
+    "seed": 20162017,
+    "threshold": 0.86,
+    "precision_oof_weighted": 0.8677433308007969,
+    "recall_oof_weighted": 0.8156639602934175,
+    "f1_oof_weighted": 0.8408980589113614,
+    "tie_break": "umbral más cercano a 0.5; luego el menor",
+    "weights": "N_h/n_h con n_h original antes de excluir DUDOSO",
+    "n_decidable": 238,
+    "hardware": {
+      "max_length": 512,
+      "fp16": true,
+      "peak_vram_mib_probe": 911.4,
+      "probe_observed_tokens": 512,
+      "selection_rule": "primera configuración viable en orden 512, 384, 256; fp16 primero",
+      "attempts": [
+        {
+          "success": true,
+          "max_length": 512,
+          "fp16": true,
+          "observed_tokens": 512,
+          "loss": 0.75244140625,
+          "peak_vram_mib": 911.4
+        }
+      ]
+    },
+    "training_logs": [
+      {
+        "fold": 1,
+        "seed": 20162017,
+        "n_train": 190,
+        "n_val": 48,
+        "epoch_losses": [
+          0.6140637849506579,
+          0.3290671097604852,
+          0.17867740831877055,
+          0.10010163156609786
+        ],
+        "elapsed_seconds": 202.53,
+        "max_vram_mib": 2169.7
+      },
+      {
+        "fold": 2,
+        "seed": 20162017,
+        "n_train": 190,
+        "n_val": 48,
+        "epoch_losses": [
+          0.6698261461759868,
+          0.39317337839226973,
+          0.22435760498046875,
+          0.10709830836245889
+        ],
+        "elapsed_seconds": 207.08,
+        "max_vram_mib": 2169.7
+      },
+      {
+        "fold": 3,
+        "seed": 20162017,
+        "n_train": 190,
+        "n_val": 48,
+        "epoch_losses": [
+          0.6548879523026315,
+          0.37232746325041116,
+          0.2039699353669819,
+          0.10563715884560033
+        ],
+        "elapsed_seconds": 207.19,
+        "max_vram_mib": 2169.7
+      },
+      {
+        "fold": 4,
+        "seed": 20162017,
+        "n_train": 191,
+        "n_val": 47,
+        "epoch_losses": [
+          0.6479249325098168,
+          0.3619931206029123,
+          0.17936482853914432,
+          0.15493922208616245
+        ],
+        "elapsed_seconds": 208.27,
+        "max_vram_mib": 2169.7
+      },
+      {
+        "fold": 5,
+        "seed": 20162017,
+        "n_train": 191,
+        "n_val": 47,
+        "epoch_losses": [
+          0.7106205006544503,
+          0.45692995081397253,
+          0.2930190800372219,
+          0.16456719842880807
+        ],
+        "elapsed_seconds": 202.28,
+        "max_vram_mib": 2172.8
+      }
+    ]
+  },
+  "metrics_file": "results/metricas_seed_20162017.csv",
+  "paired_comparison_file": "results/comparacion_pareada_seed_20162017.csv"
+}

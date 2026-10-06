@@ -1,0 +1,7 @@
+# PyTorch con CUDA se instala por separado según el servidor.
+transformers==4.55.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.7.2
+pyarrow==17.0.0
+tqdm==4.66.4

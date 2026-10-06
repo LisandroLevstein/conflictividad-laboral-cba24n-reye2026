@@ -1,0 +1,8 @@
+OK: inferencia pública reproducida en /mnt/data/conflictividad-laboral-cba24n-reye2026/results/inferencia_fpc_revision
+                  comparacion  diferencia  taylor_fpc_lo  taylor_fpc_hi  bootstrap_original_lo  bootstrap_original_hi
+Regla estricta - Ensamble >=2   -0.079774      -0.127654      -0.031893              -0.128825              -0.026228
+  Regla amplia - Ensamble >=2   -0.025917      -0.088230       0.036397              -0.090076               0.039390
+ BETO 20162017 - Ensamble >=2    0.035381      -0.014065       0.084827              -0.018905               0.087785
+ BETO 20162017 - Regla amplia    0.061298      -0.007594       0.130190              -0.013376               0.132875
+ BETO 20162018 - Ensamble >=2    0.064418       0.014334       0.114502               0.011396               0.114746
+ BETO 20162019 - Ensamble >=2    0.015023      -0.032654       0.062699              -0.035670               0.063501

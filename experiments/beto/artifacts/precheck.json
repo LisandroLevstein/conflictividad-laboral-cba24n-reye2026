@@ -1,0 +1,83 @@
+﻿{
+  "config": {
+    "model_name": "dccuchile/bert-base-spanish-wwm-cased",
+    "model_revision": "b790bdf21bd1ff63d47092e2e1fecbe24f631219",
+    "primary_seed": 20162017,
+    "sensitivity_seeds": [
+      20162018,
+      20162019
+    ],
+    "n_folds": 5,
+    "epochs": 4,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "train_batch_size": 1,
+    "eval_batch_size": 2,
+    "gradient_accumulation_steps": 8,
+    "max_grad_norm": 1.0,
+    "gradient_checkpointing": true,
+    "fp16": true,
+    "candidate_max_lengths": [
+      512,
+      384,
+      256
+    ],
+    "threshold_min": 0.05,
+    "threshold_max": 0.95,
+    "threshold_step": 0.01,
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20162017
+  },
+  "environment": {
+    "python": "3.10.12 (main, Aug 15 2025, 14:32:43) [GCC 11.4.0]",
+    "python_executable": "/home/<USER>/venvs/tesis-beto/bin/python",
+    "torch": "2.3.1+cu121",
+    "torch_cuda_runtime": "12.1",
+    "cuda_available": true,
+    "transformers": "4.55.0",
+    "pandas": "2.2.2",
+    "numpy": "1.26.4",
+    "scikit_learn": "1.7.2",
+    "pyarrow": "17.0.0",
+    "git_commit": "06b9ff041ec1623a3c3639d4234a06192a40f47d",
+    "gpu": "Quadro P2000",
+    "gpu_total_memory_gib": 4.928,
+    "gpu_compute_capability": "6.1"
+  },
+  "counts": {
+    "corpus": 26855,
+    "ajuste_total": 250,
+    "ajuste_decidible": 238,
+    "evaluacion": 1400,
+    "ajuste_etiquetas": {
+      "NO": 133,
+      "SI": 105,
+      "DUDOSO": 12
+    },
+    "ajuste_por_estrato_etiqueta": {
+      "DUDOSO": {
+        "0": 0,
+        "1": 1,
+        "2": 5,
+        "3": 3,
+        "4": 3
+      },
+      "NO": {
+        "0": 50,
+        "1": 39,
+        "2": 26,
+        "3": 11,
+        "4": 7
+      },
+      "SI": {
+        "0": 0,
+        "1": 0,
+        "2": 19,
+        "3": 46,
+        "4": 40
+      }
+    }
+  }
+}
+

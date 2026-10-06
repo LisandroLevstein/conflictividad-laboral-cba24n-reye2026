@@ -1,0 +1,3 @@
+comparacion,n,acuerdo,kappa
+etiqueta (SI/NO/DUDOSO),250,0.916,0.844
+dicotomica (SI vs no-SI),250,0.948,0.893

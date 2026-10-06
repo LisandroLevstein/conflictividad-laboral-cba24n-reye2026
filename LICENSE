@@ -1,0 +1,47 @@
+LICENSE — Detección de acciones conflictivas laborales (Cba24n 2016-2017)
+
+Este repositorio combina componentes con licencias distintas. Léase con
+atención antes de redistribuir.
+
+============================================================================
+1. CÓDIGO (directorio src/, scripts de compilación y configuración) — MIT
+============================================================================
+
+Copyright (c) 2026 Lisandro Levstein
+
+Se concede permiso, sin cargo, a cualquier persona que obtenga una copia de
+este software y su documentación para usarlo sin restricción, incluidos los
+derechos de uso, copia, modificación, fusión, publicación y distribución,
+sujeto a la inclusión de este aviso en todas las copias.
+
+EL SOFTWARE SE ENTREGA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO.
+
+============================================================================
+2. LEXICÓN Y ETIQUETAS DE VALIDACIÓN — CC BY 4.0
+============================================================================
+
+El lexicón (data/lexicon/) y las etiquetas de validación producidas para
+esta tesis (data/validation/*.csv: muestras de ajuste y de evaluación, las
+dos codificaciones independientes, la etiqueta adjudicada y sus
+justificaciones) se publican bajo Creative Commons Atribución 4.0
+Internacional. Cite la tesis asociada.
+
+============================================================================
+3. TEXTOS PERIODÍSTICOS DEL CORPUS — SIN AUTORIZACIÓN DE REDISTRIBUCIÓN
+============================================================================
+
+Los textos completos de las noticias (data/raw/ y data/processed/ en la
+medida en que reproducen el cuerpo de las notas) son propiedad del portal
+Cba24n (Servicios de Radio y Televisión de la Universidad Nacional de
+Córdoba). Se conservan aquí únicamente como insumo de verificación
+académica de esta tesis. NINGUNA cláusula de este archivo otorga
+autorización para redistribuirlos públicamente.
+
+En consecuencia, para una publicación abierta del repositorio se recomienda
+NO incluir data/raw/ ni el cuerpo de las notas en data/processed/, y
+publicar en su lugar el código, el lexicón, las etiquetas de validación,
+los identificadores (id_doc), las URL y las variables derivadas
+(predicciones, votos, tópicos), que permiten reconstruir el estudio a quien
+obtenga los textos de la fuente. La disponibilidad de los textos completos
+para terceros queda sujeta a autorización expresa del titular o al criterio
+que fije la institución.

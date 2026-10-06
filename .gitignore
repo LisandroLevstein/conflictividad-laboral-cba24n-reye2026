@@ -1,0 +1,26 @@
+# Datos periodísticos originales o derivados con texto
+/data/raw/*.csv
+/data/processed/
+/data/interim/
+*corpus_limpio*
+*predicciones.parquet
+*muestra_*_para_codificar.csv
+*muestra_evaluacion_etiquetada.csv
+*muestra_ajuste_etiquetada.csv
+*justificacion*
+
+# Modelos/artefactos grandes y entornos
+*.joblib
+*.pkl
+*.npy
+*.npz
+*.parquet
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db

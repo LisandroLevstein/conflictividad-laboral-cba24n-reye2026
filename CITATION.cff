@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Si utiliza estos materiales de replicación, cite el artículo asociado."
+title: "Conflictividad laboral en prensa digital: materiales de replicación"
+type: software
+authors:
+  - family-names: "Levstein"
+    given-names: "Lisandro"
+version: "1.0.0"
+preferred-citation:
+  type: article
+  title: "Conflictividad laboral en prensa digital: clasificación de una clase rara"
+  authors:
+    - family-names: "Levstein"
+      given-names: "Lisandro"
+  year: 2026

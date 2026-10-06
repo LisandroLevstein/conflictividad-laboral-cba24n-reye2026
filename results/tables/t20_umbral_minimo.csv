@@ -1,0 +1,11 @@
+medida,valor
+vocabulario de unigramas sin umbral (min_df=1),61934.0
+unigramas descartados por min_df=10,48972.0
+proporcion del vocabulario descartada,0.7907
+"unigramas retenidos (min_df=10, max_df=0,5)",12962.0
+proporcion de la masa de tokens descartada (corpus),0.0397
+"idem, en los positivos etiquetados",0.0211
+"idem, en los negativos etiquetados",0.0352
+positivos etiquetados considerados,81.0
+negativos etiquetados considerados,449.0
+descartados presentes en 2+ positivos etiquetados,2.0

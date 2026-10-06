@@ -1,0 +1,3 @@
+seed,clasificador,precision,recall,f1,f1_lo,f1_hi,n_muestra,n_decidible
+20162017,beto,0.7665,0.7887,0.7774,0.7268,0.8227,1400,1386
+20162017,ensamble_v2,0.6753,0.8234,0.742,0.7035,0.7826,1400,1386

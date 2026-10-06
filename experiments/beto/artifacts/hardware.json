@@ -1,0 +1,17 @@
+{
+  "max_length": 512,
+  "fp16": true,
+  "peak_vram_mib_probe": 911.4,
+  "probe_observed_tokens": 512,
+  "selection_rule": "primera configuración viable en orden 512, 384, 256; fp16 primero",
+  "attempts": [
+    {
+      "success": true,
+      "max_length": 512,
+      "fp16": true,
+      "observed_tokens": 512,
+      "loss": 0.75244140625,
+      "peak_vram_mib": 911.4
+    }
+  ]
+}
