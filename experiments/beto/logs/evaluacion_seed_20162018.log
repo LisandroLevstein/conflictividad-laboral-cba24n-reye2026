@@ -1,12 +1,11 @@
-﻿
-MÃ©tricas principales
+
+Métricas principales
     seed clasificador  precision  recall     f1  f1_lo  f1_hi  n_muestra  n_decidible
 20162018         beto     0.7598  0.8592 0.8065 0.7575 0.8500       1400         1386
 20162018  ensamble_v2     0.6753  0.8234 0.7420 0.7035 0.7826       1400         1386
 
-ComparaciÃ³n pareada
+Comparación pareada
     seed                 comparacion  diferencia_puntual  ic95_lo  ic95_hi  prop_dif_positiva    B
 20162018 F1(BETO) - F1(ensamble >=2)              0.0644   0.0114   0.1147              0.991 2000
 
 Resultados guardados en: /home/<USER>/tesis_cba24n/repo/experiments/beto/results
-

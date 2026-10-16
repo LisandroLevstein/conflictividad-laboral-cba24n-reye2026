@@ -5,7 +5,7 @@ Entrada : data/raw/cba24n_con_url_amigable_{2016,2017}.csv
 Salida  : data/processed/corpus_limpio.parquet (+ .csv)
           results/tables/t02_resumen_limpieza.csv
 
-Reglas (documentadas en la tesis, cap. Datos):
+Reglas de preparación del corpus:
   (i)   se concatenan ambos años y se conserva una fila por nodo (`link`),
         porque las filas repetidas son variantes de URL amigable de una
         misma nota, con contenido editorial idéntico;

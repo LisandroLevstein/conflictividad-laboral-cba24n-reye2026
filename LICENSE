@@ -1,47 +1,63 @@
-LICENSE — Detección de acciones conflictivas laborales (Cba24n 2016-2017)
+LICENSE — Conflictividad laboral en prensa digital: materiales de replicación
 
-Este repositorio combina componentes con licencias distintas. Léase con
-atención antes de redistribuir.
+Este repositorio combina componentes sujetos a condiciones distintas.
 
 ============================================================================
-1. CÓDIGO (directorio src/, scripts de compilación y configuración) — MIT
+1. CÓDIGO — MIT LICENSE
 ============================================================================
 
 Copyright (c) 2026 Lisandro Levstein
 
-Se concede permiso, sin cargo, a cualquier persona que obtenga una copia de
-este software y su documentación para usarlo sin restricción, incluidos los
-derechos de uso, copia, modificación, fusión, publicación y distribución,
-sujeto a la inclusión de este aviso en todas las copias.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-EL SOFTWARE SE ENTREGA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
 ============================================================================
-2. LEXICÓN Y ETIQUETAS DE VALIDACIÓN — CC BY 4.0
+2. LEXICÓN, ETIQUETAS SANITIZADAS Y MATERIALES DERIVADOS — CC BY 4.0
 ============================================================================
 
-El lexicón (data/lexicon/) y las etiquetas de validación producidas para
-esta tesis (data/validation/*.csv: muestras de ajuste y de evaluación, las
-dos codificaciones independientes, la etiqueta adjudicada y sus
-justificaciones) se publican bajo Creative Commons Atribución 4.0
-Internacional. Cite la tesis asociada.
+El lexicón elaborado para el estudio, las etiquetas de validación
+sanitizadas, las variables derivadas, las predicciones numéricas, las tablas,
+las métricas y los demás resultados originales incluidos en este repositorio
+se publican bajo Creative Commons Atribución 4.0 Internacional (CC BY 4.0),
+salvo que se indique expresamente otra condición.
+
+La atribución debe realizarse al artículo asociado:
+
+Lisandro Levstein (2026),
+"Conflictividad laboral en prensa digital: clasificación de una clase rara".
+
+Cuando el artículo disponga de DOI, éste se incorporará a CITATION.cff.
 
 ============================================================================
-3. TEXTOS PERIODÍSTICOS DEL CORPUS — SIN AUTORIZACIÓN DE REDISTRIBUCIÓN
+3. TEXTOS PERIODÍSTICOS DE CBA24N — NO REDISTRIBUIDOS NI LICENCIADOS
 ============================================================================
 
-Los textos completos de las noticias (data/raw/ y data/processed/ en la
-medida en que reproducen el cuerpo de las notas) son propiedad del portal
-Cba24n (Servicios de Radio y Televisión de la Universidad Nacional de
-Córdoba). Se conservan aquí únicamente como insumo de verificación
-académica de esta tesis. NINGUNA cláusula de este archivo otorga
-autorización para redistribuirlos públicamente.
+Este repositorio no distribuye títulos, copetes ni cuerpos de las noticias
+del corpus de Cba24n. Los derechos sobre esos contenidos periodísticos
+corresponden a sus respectivos titulares.
 
-En consecuencia, para una publicación abierta del repositorio se recomienda
-NO incluir data/raw/ ni el cuerpo de las notas en data/processed/, y
-publicar en su lugar el código, el lexicón, las etiquetas de validación,
-los identificadores (id_doc), las URL y las variables derivadas
-(predicciones, votos, tópicos), que permiten reconstruir el estudio a quien
-obtenga los textos de la fuente. La disponibilidad de los textos completos
-para terceros queda sujeta a autorización expresa del titular o al criterio
-que fije la institución.
+Ninguna disposición de este archivo concede autorización para reproducir,
+redistribuir o relicenciar esos textos periodísticos.
+
+Los archivos públicos contienen únicamente los materiales necesarios para
+auditar y reproducir los resultados que pueden difundirse sin redistribuir
+el corpus: código, lexicón, identificadores internos, diseño muestral,
+etiquetas sanitizadas, predicciones numéricas y resultados agregados.
+
+Quienes dispongan de acceso autorizado al corpus original pueden reconstruir
+el pipeline completo siguiendo las instrucciones de data/raw/README.md.

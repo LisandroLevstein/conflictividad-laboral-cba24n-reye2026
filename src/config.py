@@ -38,7 +38,7 @@ UMBRAL_MAYORIA_CLUSTER = 0.5   # proporción de docs "protocolo" para marcar un 
 
 # Cortes del ensamble por número de votos coincidentes (de 4 detectores).
 # Se guardan los dos cortes de interés con nombres inequívocos; el punto
-# de operación de la tesis es CORTE_OPERACION (3 votos), elegido sobre la
+# de operación del estudio es CORTE_OPERACION (2 votos), elegido sobre la
 # muestra de ajuste (script 08, tabla t16). CORTE_TAMIZ (2 votos) es el
 # régimen de alta exhaustividad para tamizaje asistido. La evaluación
 # (script 09) construye además todos los cortes 1..4 para comparar.

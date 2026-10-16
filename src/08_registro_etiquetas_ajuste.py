@@ -2,7 +2,7 @@
 """08 — Registro de la doble codificación de la muestra de AJUSTE (250).
 
 La muestra de ajuste fue codificada por DOS codificadores de forma
-independiente; un tercero (el tesista) adjudicó los desacuerdos. Este
+independiente; un tercer codificador adjudicó los desacuerdos. Este
 script lee el registro (data/validation/muestra_ajuste_codificacion.csv,
 con ambas codificaciones y la etiqueta definitiva) y:
 

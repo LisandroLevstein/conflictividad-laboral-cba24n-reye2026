@@ -15,7 +15,7 @@ regulares que operacionalizan los requisitos 1-4 del test:
 El requisito 3 (antagonista identificable) no se modela léxicamente:
 en la prensa el antagonista casi siempre queda implícito en el verbo
 ("reclamaron a la empresa", "al Gobierno") y su ausencia léxica no es
-informativa. La decisión se discute en la tesis (cap. metodológico).
+informativa. La decisión forma parte de la especificación protocolar.
 
 Con el lexicón se definen dos reglas protocolares puramente
 determinísticas, sin datos etiquetados:

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """03 — Representación vectorial del corpus.
 
-Pipeline lingüístico (documentado en la tesis):
+Pipeline lingüístico:
   1. minúsculas y remoción de diacríticos;
   2. tokenización por expresión regular ([a-z]{2,});
   3. remoción de stopwords del español (NLTK) más una lista propia de

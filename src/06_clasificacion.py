@@ -75,7 +75,7 @@ def main() -> None:
     })
     pred["votos"] = (pred[["m_lda", "m_nmf", "m_kmeans", "m_prototipo"]]
                      .sum(axis=1).astype(int))
-    # Punto de operación de la tesis (columna binaria). La evaluación
+    # Punto de operación del estudio (columna binaria). La evaluación
     # (script 09) reconstruye además los cortes 1..4 para la sensibilidad.
     pred["ens_operacion"] = pred["votos"] >= CORTE_OPERACION
 

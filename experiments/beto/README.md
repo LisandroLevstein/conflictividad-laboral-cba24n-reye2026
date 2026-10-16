@@ -1,6 +1,6 @@
 # Benchmark supervisado BETO
 
-Este directorio contiene un experimento exploratorio y **desmontable**, paralelo al pipeline central de la tesis. No se incorpora a `run_all.sh`, no modifica archivos de `src/` ni sobrescribe resultados de la investigación principal.
+Este directorio contiene un experimento exploratorio y **desmontable**, paralelo al pipeline central del artículo. No se incorpora a `run_all.sh`, no modifica archivos de `src/` ni sobrescribe resultados de la investigación principal.
 
 ## Pregunta del benchmark
 
@@ -56,7 +56,7 @@ Los intermedios recreables se guardan en `artifacts/` y quedan ignorados por Git
 - `sensibilidad_dudoso_seed_20162017.csv`
 - `resumen_seed_20162017.json`
 
-La comparación pareada utiliza las mismas 2.000 réplicas bootstrap estratificadas para BETO y para el ensamble `>=2`.
+La comparación pareada del benchmark originalmente ejecutado utiliza las mismas 2.000 réplicas bootstrap estratificadas para BETO y para el ensamble `>=2`. Este procedimiento se conserva como parte de la trazabilidad del experimento y como análisis de sensibilidad. La inferencia principal revisada del artículo utiliza linealización de Taylor con corrección por población finita (FPC); véase `../../src/16_revision_inferencia_fpc_public.py`.
 
 ## Sensibilidad a la semilla
 
@@ -72,7 +72,7 @@ Las semillas adicionales declaradas en `config.json` deben presentarse como aná
 
 ## Limitaciones de interpretación
 
-La muestra de ajuste fue estratificada por los votos del clasificador de la tesis. En particular, no contiene positivos observados en los estratos 0 y 1. Por ello, este benchmark no estima qué ocurriría con 250 noticias seleccionadas aleatoriamente del corpus. Estima el rendimiento de BETO con la muestra de ajuste efectivamente disponible bajo el diseño de la investigación.
+La muestra de ajuste fue estratificada por los votos del clasificador basado en ensamble. En particular, no contiene positivos observados en los estratos 0 y 1. Por ello, este benchmark no estima qué ocurriría con 250 noticias seleccionadas aleatoriamente del corpus. Estima el rendimiento de BETO con la muestra de ajuste efectivamente disponible bajo el diseño de la investigación.
 
 ## Consolidación de semillas
 

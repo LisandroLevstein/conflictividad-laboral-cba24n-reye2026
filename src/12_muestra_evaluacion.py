@@ -2,14 +2,16 @@
 """12 — Muestra de EVALUACIÓN (n = 1.400, doble codificación al 25 %).
 
 Muestra estratificada por votos sobre la que se estiman todas las cifras
-que la tesis reporta. El marco es el corpus completo menos la muestra de
-ajuste (250 notas); no hay otras exclusiones. Ningún caso evaluado
-intervino en decisión alguna: la evaluación es enteramente fuera de
-muestra.
+que el estudio reporta. El marco es el corpus completo menos la muestra de
+ajuste (250 notas); no hay otras exclusiones. Las etiquetas de evaluación no
+intervinieron en decisiones de especificación ni ajuste. Los métodos no
+supervisados, sin embargo, se estimaron sobre el corpus completo antes de
+seleccionar la muestra; por ello, la evaluación es independiente respecto de
+las etiquetas, pero transductiva respecto de los textos.
 
 TAMAÑO. n = 1.400 se deriva de un objetivo de precisión declarado antes
 de codificar: que el semiancho del intervalo del 95 % para F1 sea menor
-que la diferencia que la tesis necesita resolver entre la regla
+que la diferencia que el diseño busca resolver entre la regla
 protocolar y el ensamble (del orden de 0,05).
 
 ASIGNACIÓN. Se calcula en tiempo de ejecución a partir de los p_h de la
